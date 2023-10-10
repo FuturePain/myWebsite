@@ -640,7 +640,7 @@ p {
 }
 
 .bio-card-pic img {
-  width: 100%;
+  width: auto;
   height: 350px;
   object-fit: cover;
   border-radius: 5px 5px 0px 0px;
