@@ -650,12 +650,29 @@ p {
   margin-left: 10%;
 }
 
+.bio-row-bottom {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+
 .bio-card {
   background-color: transparent;
   width: 350px;
   height: 470px;
   margin: 10px;
   border-radius: 5px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  perspective: 1000px;
+}
+
+.bio-card-bottom {
+  background-color: transparent;
+  width: 350px;
+  height: 470px;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   perspective: 1000px;
@@ -699,7 +716,7 @@ p {
 
 .bio-card-inner-old {
   position: relative;
-  width: 100%;
+  width: 90%;
   height: 80%;
   text-align: center;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
