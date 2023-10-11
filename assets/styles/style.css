@@ -240,7 +240,7 @@ body {
 }
 
 /* FOOTER */
-.footer-container {
+.footer-container-about {
   max-height: 4%;
   width: 100%;
   background-color: #A1B9ED;
@@ -250,7 +250,17 @@ body {
   align-items: center;
   position: absolute;
   bottom: 0;
+}
 
+.footer-container {
+  height: 18%;
+  width: 100%;
+  margin-top: 5%;
+  background-color: #A1B9ED;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #page-container {
