@@ -13,292 +13,249 @@
 </head>
 
 <body>
+  <div id="page-container">
+    <div id="content-wrap">
 
-<!-- NAV BAR -->
-<header id="navbar">
-  <nav class="navbar-container container">
-    <a href="index.html#image-banner-container" class="home-link">
-      <div class="navbar-logo"><img src="assets/images/logo.png" alt="FUTUREPAIN logo"></div>
-    </a>
-    <button type="button" id="navbar-toggle" aria-controls="navbar-menu" aria-label="Toggle menu" aria-expanded="false">
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
-    <div id="navbar-menu" aria-labelledby="navbar-toggle">
-      <ul class="navbar-links">
-        <div class="dropdown">
-          <li class="navbar-item"><a class="navbar-link" href="index.html#whatsfuturepain-holder">What's FUTUREPAIN</a></li>
-          <div class="dropdown-content">
-            <a href="research.html">Research</a>
+      <!-- NAV BAR -->
+      <header id="navbar">
+        <nav class="navbar-container container">
+          <a href="index.html#image-banner-container" class="home-link">
+            <div class="navbar-logo"><img src="assets/images/logo.png" alt="FUTUREPAIN logo"></div>
+          </a>
+          <button type="button" id="navbar-toggle" aria-controls="navbar-menu" aria-label="Toggle menu" aria-expanded="false">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div id="navbar-menu" aria-labelledby="navbar-toggle">
+            <ul class="navbar-links">
+              <div class="dropdown">
+                <li class="navbar-item"><a class="navbar-link" href="index.html#whatsfuturepain-holder">What's FUTUREPAIN</a></li>
+                <div class="dropdown-content">
+                  <a href="research.html">Research</a>
+                </div>
+              </div>
+              <li class="navbar-item"><a class="navbar-link" href="about.html">About Us</a></li>
+              <li class="navbar-item"><a class="navbar-link" href="contact.html">Contact</a></li>
+              <li class="navbar-item"><a class="navbar-link" href="https://berkeley.qualtrics.com/jfe/preview/SV_74M6q6XsXhAU6Mt?Q_CHL=preview&Q_SurveyVersionID=current"><div id="nav-survey-button">Take the survey</div></a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+      <!-- Header and subhead -->
+      <div class="top-page-container">
+        <div class="page-header"> Meet the team </div>
+        <div class="page-subhead"> We're a group of UC Berkeley researchers passionate about innovating the future of chronic pain treament. Hover over each picture to learn more about us!</div>
+      </div>
+
+      <!-- Researcher bios -->
+      <div class="bio-container">
+        
+        <div class="bio-row">
+
+          <div class="bio-card">
+            <div class="bio-card-inner">
+              <div class="bio-card-front">
+                <div class="bio-card-pic"><img src="./assets/images/profbrown.jpg" alt="Headshot of Professor Timothy Brown"></div>
+                <div class="bio-card-name">Timothy Brown, PhD</div>
+                <div class="bio-card-role">Principal Investigator</div>
+              </div>
+              <div class="bio-card-back">
+                <div class="bio-card-back-header">Timothy Brown</div>
+                <hr class="bio-card-divider">
+                <div class="bio-card-back-text"> Timothy Brown, PhD, MA, is a health services researcher who has recently published work showing the specific biological, psychological, and social factors that predict future chronic pain; the causal impact of reductions in psychological distress in eliminating low back pain; and how discrimination can result in chronic pain. He is a faculty member in the Division of Health Policy and Management in the School of Public Health at the University of California, Berkeley.</div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="bio-card">
+            <div class="bio-card-inner">
+              <div class="bio-card-front">
+                <div class="bio-card-pic"><img src="./assets/images/abby.jpg" alt="Headshot of Abby Straight"></div>
+                <div class="bio-card-name">Abigail Straight</div>
+                <div class="bio-card-role">Student Researcher</div>
+              </div>
+              <div class="bio-card-back">
+                <div class="bio-card-back-header">Abigail Straight</div>
+                <hr class="bio-card-divider">
+                <div class="bio-card-back-text">Abigail is a 4th year at UC Berkeley completing the Medical Biology and Physiology track within Cellular and Developmental Biology and Molecular and Cellular Biology major. She is passionate about equity and nuance within the spheres of science and healthcare, and is excited about including a mind-body and systems approach in her work. Abigail prioritizes time with family and friends, and enjoys live music, cooking, and being outdoors.</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="bio-card">
+            <div class="bio-card-inner">
+              <div class="bio-card-front">
+                <div class="bio-card-pic"><img src="./assets/images/nguyen.jpg" alt="Headshot of Allison Nguyen"></div>
+                <div class="bio-card-name">Allison Nguyen</div>
+                <div class="bio-card-role">Student Researcher</div>
+              </div>
+              <div class="bio-card-back">
+                <div class="bio-card-back-header">Allison Nguyen</div>
+                <hr class="bio-card-divider">
+                <div class="bio-card-back-text">Allison is a second-year undergraduate student at Berkeley studying Public Health and Molecular and Cellular Biology on the pre-medicine track. She is passionate about helping those with chronic pain, especially those who struggle with healthcare accessibility. In her free time Allison is always dancing, cheerleading, or baking.</div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="bio-card">
+            <div class="bio-card-inner">
+              <div class="bio-card-front">
+                <div class="bio-card-pic"><img src="./assets/images/song.jpg" alt="Headshot of Brian Song"></div>
+                <div class="bio-card-name">Brian Song</div>
+                <div class="bio-card-role">Student Researcher</div>
+              </div>
+              <div class="bio-card-back">
+                <div class="bio-card-back-header">Brian Song</div>
+                <hr class="bio-card-divider">
+                <div class="bio-card-back-text">Brian is a first-year at Berkeley studying Electrical Engineering and Computer Science. He’s excited to explore the interdisciplinary bridges between computer science and other fields, such as public health. Witnessing technology amplify the potential impact of a study is a box he certainly intends to check off. In his free time, he loves to code and play baseball.</div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="bio-card">
+            <div class="bio-card-inner">
+              <div class="bio-card-front">
+                <div class="bio-card-pic"><img src="./assets/images/ishita.jpg" alt="Headshot of Ishita Srivastava"></div>
+                <div class="bio-card-name">Ishita Srivastava</div>
+                <div class="bio-card-role">Student Researcher</div>
+              </div>
+              <div class="bio-card-back">
+                <div class="bio-card-back-header">Ishita Srivastava</div>
+                <hr class="bio-card-divider">
+                <div class="bio-card-back-text">Ishita is a third-year at UC Berkeley studying Molecular and Cell Biology, specializing in Neurobiology on the pre-medicine track. She is passionate about increasing healthcare accessibility as well as developing sustainable solutions for underserved populations. In her free time, you can spot her dancing, exploring scenic hikes or running with her dog.</div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="bio-card">
+            <div class="bio-card-inner">
+              <div class="bio-card-front">
+                <div class="bio-card-pic"><img src="./assets/images/jasneet.jpeg" alt="Headshot of Jasneet Bajwa"></div>
+                <div class="bio-card-name">Jasneet Bajwa</div>
+                <div class="bio-card-role">Student Researcher</div>
+              </div>
+              <div class="bio-card-back">
+                <div class="bio-card-back-header">Jasneet Bajwa</div>
+                <hr class="bio-card-divider">
+                <div class="bio-card-back-text">Jasneet is a 3rd year studying Molecular and Environmental Biology with a minor in Global Poverty and Practice at UC Berkeley. She is passionate about providing equitable access to healthcare especially to underserved communities. In her free time. you can spot her running around Berkeley, hiking, or watching anime.</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="bio-card">
+            <div class="bio-card-inner">
+              <div class="bio-card-front">
+                <div class="bio-card-pic"><img src="./assets/images/filler.png" alt="Headshot of Jude Alexis"></div>
+                <div class="bio-card-name">Jude Alexis</div>
+                <div class="bio-card-role">Student Researcher</div>
+              </div>
+              <div class="bio-card-back">
+                <div class="bio-card-back-header">Jude Alexis</div>
+                <hr class="bio-card-divider">
+                <div class="bio-card-back-text">Jude is a first-year undergraduate at Berkeley studying Molecular and Cellular Biology with pre-med ambitions. With professional clinical experience, heavy technical exposure to CS, and a passion for ensuring the human good, Jude aims to be on the bleeding edge of the increasing digitization of medicine. In his free time he enjoys reading and playing chess.  </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="bio-card">
+            <div class="bio-card-inner">
+              <div class="bio-card-front">
+                <div class="bio-card-pic"><img src="./assets/images/yan.jpg" alt="Headshot of Michael Yan"></div>
+                <div class="bio-card-name">Michael Yan</div>
+                <div class="bio-card-role">Student Researcher</div>
+              </div>
+              <div class="bio-card-back">
+                <div class="bio-card-back-header">Michael Yan</div>
+                <hr class="bio-card-divider">
+                <div class="bio-card-back-text">Michael is a second-year undergraduate at Berkeley studying Molecular and Cellular Biology with a minor in Public Policy. With professional interests in politics and health economics, he aims to pursue a career in health policy and clinical research as a physician-economist. Outside of academics, you can find Michael golfing on weekday mornings and singing as a true tenor.</div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="bio-card">
+            <div class="bio-card-inner">
+              <div class="bio-card-front">
+                <div class="bio-card-pic"><img src="./assets/images/steph.jpg" alt="Headshot of Stephanie Lau"></div>
+                <div class="bio-card-name">Stephanie Lau</div>
+                <div class="bio-card-role">Student Researcher</div>
+              </div>
+              <div class="bio-card-back">
+                <div class="bio-card-back-header">Stephanie Lau</div>
+                <hr class="bio-card-divider">
+                <div class="bio-card-back-text">Stephanie is a second-year undergraduate student at Berkeley intending to pursue cognitive science. She’s interested in exploring the public health, policy, and advocacy fields in order to create a better world for those with chronic pain and health conditions. Outside of school, she enjoys art, reading, and live music.</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="bio-card">
+            <div class="bio-card-inner">
+              <div class="bio-card-front">
+                <div class="bio-card-pic"><img src="./assets/images/dhaliwal.jpeg" alt="Headshot of Rupinder Dhaliwal"></div>
+                <div class="bio-card-name">Rupinder Dhaliwal</div>
+                <div class="bio-card-role">Student Researcher</div>
+              </div>
+              <div class="bio-card-back">
+                <div class="bio-card-back-header">Rupinder Dhaliwal</div>
+                <hr class="bio-card-divider">
+                <div class="bio-card-back-text">Rupinder is a senior undergraduate student at Berkeley studying Cognitive Science and Design. She finds the intersection between health, technology, and design fascinating. She has her associates in social and behavioral science and aspires to pursue a career, where she can help people and create innovative design solutions that prioritize accessibility. She is an avid latte drinker, likes dancing, and enjoys taking scenic walks out in nature.</div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+      <div class="bottom-page-container">
+        <div class="page-footer"> Past Team Members </div>
+      </div>
+
+      <div class="bio-container-bottom">
+        <div class="bio-row-bottom">
+
+          <div class="bio-card-bottom">
+            <div class="bio-card-inner-old">
+                <div class="bio-card-name">Calista Oliveira</div>
+                <div class="bio-card-pic-bottom"><img src="./assets/images/calista.png" alt="Headshot of Calista Oliveira"></div>
+                <div class="bio-card-role">Student Researcher</div>
+              </div>
+          </div>
+
+          <div class="bio-card-bottom">
+            <div class="bio-card-inner-old">
+                <div class="bio-card-name">Cindy Liu</div>
+                <div class="bio-card-pic-bottom"><img src="./assets/images/cindy.jpg" alt="Headshot of Cindy Liu"></div>
+                <div class="bio-card-role">Student Researcher</div>
+              </div>
+          </div>
+
+          <div class="bio-card-bottom">
+            <div class="bio-card-inner-old">
+                <div class="bio-card-name">Megan Yip</div>
+                <div class="bio-card-pic-bottom"><img src="./assets/images/megan.jpeg" alt="Headshot of Megan Yip"></div>
+                <div class="bio-card-role">Student Researcher</div>
+              </div>
           </div>
         </div>
-        <li class="navbar-item"><a class="navbar-link" href="about.html">About Us</a></li>
-        <li class="navbar-item"><a class="navbar-link" href="contact.html">Contact</a></li>
-        <li class="navbar-item"><a class="navbar-link" href="https://berkeley.qualtrics.com/jfe/preview/SV_74M6q6XsXhAU6Mt?Q_CHL=preview&Q_SurveyVersionID=current"><div id="nav-survey-button">Take the survey</div></a></li>
-      </ul>
+      </div>
     </div>
-  </nav>
-</header>
 
-<!-- Header and subhead -->
-  <div class="top-page-container">
-    <div class="page-header"> Meet the team </div>
-    <div class="page-subhead"> We're a group of UC Berkeley researchers passionate about innovating the future of chronic pain treament. Hover over each picture to learn more about us!</div>
+
+    <!--FOOTER-->
+    <div class="footer-container">
+      <div id="berk-logo"><img src="./assets/images/berk_logo.png" alt="Berkeley Public Health logo"></div>
+      <div class="footer-right">
+        <div class="footer-icons"><a href="https://www.facebook.com/Futurepain21/"><i class="fab fa-facebook"></i></a></div>
+        <div class="footer-icons"><a href="https://www.facebook.com/Futurepain21/"><i class="fab fa-twitter"></i></a></div>
+        <div class="footer-icons"><a href="mailto:futurepain@berkeley.edu"><i class="fas fa-envelope"></i></a></div>
+      </div>
+    </div>
+
   </div>
 
-<!-- Researcher bios -->
-  <div class="bio-container">
-    <div class="bio-row">
-
-      <div class="bio-card">
-        <div class="bio-card-inner">
-          <div class="bio-card-front">
-            <div class="bio-card-pic"><img src="./assets/images/profbrown.jpg" alt="Headshot of Professor Timothy Brown"></div>
-            <div class="bio-card-name">Timothy Brown, PhD</div>
-            <div class="bio-card-role">Principal Investigator</div>
-          </div>
-          <div class="bio-card-back">
-            <div class="bio-card-back-header">Timothy Brown</div>
-            <hr class="bio-card-divider">
-            <div class="bio-card-back-text"> Timothy Brown, PhD, MA, is a health services researcher who has recently published work showing the specific biological, psychological, and social factors that predict future chronic pain; the causal impact of reductions in psychological distress in eliminating low back pain; and how discrimination can result in chronic pain. He is a faculty member in the Division of Health Policy and Management in the School of Public Health at the University of California, Berkeley.</div>
-          </div>
-        </div>
-      </div>
-      
-      <div class="bio-card">
-        <div class="bio-card-inner">
-          <div class="bio-card-front">
-            <div class="bio-card-pic"><img src="./assets/images/abby.jpg" alt="Headshot of Abby Straight"></div>
-            <div class="bio-card-name">Abigail Straight</div>
-            <div class="bio-card-role">Student Researcher</div>
-          </div>
-          <div class="bio-card-back">
-            <div class="bio-card-back-header">Abigail Straight</div>
-            <hr class="bio-card-divider">
-            <div class="bio-card-back-text">Abigail is a 4th year at UC Berkeley completing the Medical Biology and Physiology track within Cellular and Developmental Biology and Molecular and Cellular Biology major. She is passionate about equity and nuance within the spheres of science and healthcare, and is excited about including a mind-body and systems approach in her work. Abigail prioritizes time with family and friends, and enjoys live music, cooking, and being outdoors.</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="bio-card">
-        <div class="bio-card-inner">
-          <div class="bio-card-front">
-            <div class="bio-card-pic"><img src="./assets/images/nguyen.jpg" alt="Headshot of Allison Nguyen"></div>
-            <div class="bio-card-name">Allison Nguyen</div>
-            <div class="bio-card-role">Student Researcher</div>
-          </div>
-          <div class="bio-card-back">
-            <div class="bio-card-back-header">Allison Nguyen</div>
-            <hr class="bio-card-divider">
-            <div class="bio-card-back-text">Allison is a second-year undergraduate student at Berkeley studying Public Health and Molecular and Cellular Biology on the pre-medicine track. She is passionate about helping those with chronic pain, especially those who struggle with healthcare accessibility. In her free time Allison is always dancing, cheerleading, or baking.</div>
-          </div>
-        </div>
-      </div>
-      
-      <div class="bio-card">
-        <div class="bio-card-inner">
-          <div class="bio-card-front">
-            <div class="bio-card-pic"><img src="./assets/images/song.jpg" alt="Headshot of Brian Song"></div>
-            <div class="bio-card-name">Brian Song</div>
-            <div class="bio-card-role">Student Researcher</div>
-          </div>
-          <div class="bio-card-back">
-            <div class="bio-card-back-header">Brian Song</div>
-            <hr class="bio-card-divider">
-            <div class="bio-card-back-text">Brian is a first-year at Berkeley studying Electrical Engineering and Computer Science. He’s excited to explore the interdisciplinary bridges between computer science and other fields, such as public health. Witnessing technology amplify the potential impact of a study is a box he certainly intends to check off. In his free time, he loves to code and play baseball.</div>
-          </div>
-        </div>
-      </div>
-      
-      <div class="bio-card">
-        <div class="bio-card-inner">
-          <div class="bio-card-front">
-            <div class="bio-card-pic"><img src="./assets/images/ishita.jpg" alt="Headshot of Ishita Srivastava"></div>
-            <div class="bio-card-name">Ishita Srivastava</div>
-            <div class="bio-card-role">Student Researcher</div>
-          </div>
-          <div class="bio-card-back">
-            <div class="bio-card-back-header">Ishita Srivastava</div>
-            <hr class="bio-card-divider">
-            <div class="bio-card-back-text">Ishita is a third-year at UC Berkeley studying Molecular and Cell Biology, specializing in Neurobiology on the pre-medicine track. She is passionate about increasing healthcare accessibility as well as developing sustainable solutions for underserved populations. In her free time, you can spot her dancing, exploring scenic hikes or running with her dog.</div>
-          </div>
-        </div>
-      </div>
-      
-   <div class="bio-card">
-        <div class="bio-card-inner">
-          <div class="bio-card-front">
-            <div class="bio-card-pic"><img src="./assets/images/jasneet.jpeg" alt="Headshot of Jasneet Bajwa"></div>
-            <div class="bio-card-name">Jasneet Bajwa</div>
-            <div class="bio-card-role">Student Researcher</div>
-          </div>
-          <div class="bio-card-back">
-            <div class="bio-card-back-header">Jasneet Bajwa</div>
-            <hr class="bio-card-divider">
-            <div class="bio-card-back-text">Jasneet is a 3rd year studying Molecular and Environmental Biology with a minor in Global Poverty and Practice at UC Berkeley. She is passionate about providing equitable access to healthcare especially to underserved communities. In her free time. you can spot her running around Berkeley, hiking, or watching anime.</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="bio-card">
-        <div class="bio-card-inner">
-          <div class="bio-card-front">
-            <div class="bio-card-pic"><img src="./assets/images/filler.png" alt="Headshot of Jude Alexis"></div>
-            <div class="bio-card-name">Jude Alexis</div>
-            <div class="bio-card-role">Student Researcher</div>
-          </div>
-          <div class="bio-card-back">
-            <div class="bio-card-back-header">Jude Alexis</div>
-            <hr class="bio-card-divider">
-            <div class="bio-card-back-text">Jude is a first-year undergraduate at Berkeley studying Molecular and Cellular Biology with pre-med ambitions. With professional clinical experience, heavy technical exposure to CS, and a passion for ensuring the human good, Jude aims to be on the bleeding edge of the increasing digitization of medicine. In his free time he enjoys reading and playing chess.  </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="bio-card">
-        <div class="bio-card-inner">
-          <div class="bio-card-front">
-            <div class="bio-card-pic"><img src="./assets/images/yan.jpg" alt="Headshot of Michael Yan"></div>
-            <div class="bio-card-name">Michael Yan</div>
-            <div class="bio-card-role">Student Researcher</div>
-          </div>
-          <div class="bio-card-back">
-            <div class="bio-card-back-header">Michael Yan</div>
-            <hr class="bio-card-divider">
-            <div class="bio-card-back-text">Michael is a second-year undergraduate at Berkeley studying Molecular and Cellular Biology with a minor in Public Policy. With professional interests in politics and health economics, he aims to pursue a career in health policy and clinical research as a physician-economist. Outside of academics, you can find Michael golfing on weekday mornings and singing as a true tenor.</div>
-          </div>
-        </div>
-      </div>
-      
-      <div class="bio-card">
-        <div class="bio-card-inner">
-          <div class="bio-card-front">
-            <div class="bio-card-pic"><img src="./assets/images/steph.jpg" alt="Headshot of Stephanie Lau"></div>
-            <div class="bio-card-name">Stephanie Lau</div>
-            <div class="bio-card-role">Student Researcher</div>
-          </div>
-          <div class="bio-card-back">
-            <div class="bio-card-back-header">Stephanie Lau</div>
-            <hr class="bio-card-divider">
-            <div class="bio-card-back-text">Stephanie is a second-year undergraduate student at Berkeley intending to pursue cognitive science. She’s interested in exploring the public health, policy, and advocacy fields in order to create a better world for those with chronic pain and health conditions. Outside of school, she enjoys art, reading, and live music.</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="bio-card">
-        <div class="bio-card-inner">
-          <div class="bio-card-front">
-            <div class="bio-card-pic"><img src="./assets/images/dhaliwal.jpeg" alt="Headshot of Rupinder Dhaliwal"></div>
-            <div class="bio-card-name">Rupinder Dhaliwal</div>
-            <div class="bio-card-role">Student Researcher</div>
-          </div>
-          <div class="bio-card-back">
-            <div class="bio-card-back-header">Rupinder Dhaliwal</div>
-            <hr class="bio-card-divider">
-            <div class="bio-card-back-text">Rupinder is a senior undergraduate student at Berkeley studying Cognitive Science and Design. She finds the intersection between health, technology, and design fascinating. She has her associates in social and behavioral science and aspires to pursue a career, where she can help people and create innovative design solutions that prioritize accessibility. She is an avid latte drinker, likes dancing, and enjoys taking scenic walks out in nature.</div>
-          </div>
-        </div>
-      </div>
-
-
-    </div>
-
-    <div class="bottom-page-container">
-      <div class="page-footer"> Past Team Members </div>
-    </div>
-
-    <div class="bio-container-bottom">
-      <div class="bio-row-bottom">
-
-        <div class="bio-card-bottom">
-          <div class="bio-card-inner-old">
-              <div class="bio-card-name">Calista Oliveira</div>
-              <div class="bio-card-pic-bottom"><img src="./assets/images/calista.png" alt="Headshot of Calista Oliveira"></div>
-              <div class="bio-card-role">Student Researcher</div>
-            </div>
-        </div>
-
-        <div class="bio-card-bottom">
-          <div class="bio-card-inner-old">
-              <div class="bio-card-name">Cindy Liu</div>
-              <div class="bio-card-pic-bottom"><img src="./assets/images/cindy.jpg" alt="Headshot of Cindy Liu"></div>
-              <div class="bio-card-role">Student Researcher</div>
-            </div>
-        </div>
-
-        <div class="bio-card-bottom">
-          <div class="bio-card-inner-old">
-              <div class="bio-card-name">Megan Yip</div>
-              <div class="bio-card-pic-bottom"><img src="./assets/images/megan.jpeg" alt="Headshot of Megan Yip"></div>
-              <div class="bio-card-role">Student Researcher</div>
-            </div>
-        </div>
-      
-        <!--
-        <div class="bio-card">
-          <div class="bio-card-inner">
-            <div class="bio-card-front">
-              <div class="bio-card-pic"><img src="./assets/images/calista.png" alt="Headshot of Calista Oliveira"></div>
-              <div class="bio-card-name">Calista Oliveira</div>
-              <div class="bio-card-role">Student Researcher</div>
-            </div>
-            <div class="bio-card-back">
-              <div class="bio-card-back-header">Calista Oliveira</div>
-              <hr class="bio-card-divider">
-              <div class="bio-card-back-text">Calista is a third-year at UC Berkeley studying Public Health and Education. She is passionate about developing sustainable solutions to promote good health and quality of life for all people. When it is time for a break, you will find her sailing around San Diego Bay or playing board games with her family and friends. </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="bio-card">
-          <div class="bio-card-inner">
-            <div class="bio-card-front">
-              <div class="bio-card-pic"><img src="./assets/images/cindy.jpg" alt="Headshot of Cindy Liu"></div>
-              <div class="bio-card-name">Cindy Liu</div>
-              <div class="bio-card-role">Student Researcher</div>
-            </div>
-            <div class="bio-card-back">
-              <div class="bio-card-back-header">Cindy Liu</div>
-              <hr class="bio-card-divider">
-              <div class="bio-card-back-text">Cindy is a third-year at UC Berkeley studying English and Public Health. She's passionate about health equity and improving chronic pain for underserved communities. In her free time, you can catch her dogspotting around Berkeley or doing art. </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="bio-card">
-          <div class="bio-card-inner">
-            <div class="bio-card-front">
-              <div class="bio-card-pic"><img src="./assets/images/megan.jpeg" alt="Headshot of Megan Yip"></div>
-              <div class="bio-card-name">Megan Yip</div>
-              <div class="bio-card-role">Student Researcher</div>
-            </div>
-            <div class="bio-card-back">
-              <div class="bio-card-back-header">Megan Yip</div>
-              <hr class="bio-card-divider">
-              <div class="bio-card-back-text">Megan is a third-year at UC Berkeley studying Public Health on the pre-optometry track. She’s passionate about preventative health and sustainable practices. In her free time you can find her crocheting or hiking on the Fire Trails. </div>
-            </div>
-          </div>
-        </div>
-        -->
-
-        </div>
-    </div>
-   
-
-
-
-<!--FOOTER-->
-<div class="footer-container">
-  <div id="berk-logo"><img src="./assets/images/berk_logo.png" alt="Berkeley Public Health logo"></div>
-  <div class="footer-right">
-    <div class="footer-icons"><a href="https://www.facebook.com/Futurepain21/"><i class="fab fa-facebook"></i></a></div>
-    <div class="footer-icons"><a href="https://www.facebook.com/Futurepain21/"><i class="fab fa-twitter"></i></a></div>
-    <div class="footer-icons"><a href="mailto:futurepain@berkeley.edu"><i class="fas fa-envelope"></i></a></div>
-  </div>
-</div>
-
-<!--JAVASCRIPT-->
+  <!--JAVASCRIPT-->
   <script src="scripts/script.js"></script>
 </body>
 

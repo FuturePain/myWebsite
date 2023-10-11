@@ -241,14 +241,25 @@ body {
 
 /* FOOTER */
 .footer-container {
-  height: 18%;
+  max-height: 4%;
   width: 100%;
-  margin-top: 5%;
   background-color: #A1B9ED;
   color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: absolute;
+  bottom: 0;
+
+}
+
+#page-container {
+  position: relative;
+  min-height: 100%;
+}
+
+#content-wrap {
+  padding-bottom: 4%;
 }
 
 #berk-logo img {
@@ -638,8 +649,10 @@ p {
 
 .bio-container-bottom {
   margin-right: 60px;
+  margin-bottom: 60px;
   width: 100%;
-  height: 35%;
+  height: auto;
+  
 }
 
 .bio-row {
@@ -654,8 +667,8 @@ p {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-right: 1%;
-  margin-left: 1%;
+  margin-right: 10%;
+  margin-left: 10%;
 }
 
 .bio-card {
@@ -672,10 +685,11 @@ p {
 .bio-card-bottom {
   background-color: transparent;
   width: 350px;
-  height: 470px;
+  height: 390px;
+  border-radius: 5px;
+  margin: 10px;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  perspective: 1000px;
 }
 
 .bio-card-pic img {
@@ -716,8 +730,8 @@ p {
 
 .bio-card-inner-old {
   position: relative;
-  width: 90%;
-  height: 80%;
+  width: 100%;
+  height: 100%;
   text-align: center;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
