@@ -720,11 +720,14 @@ p {
 .bio-card-name {
   font-size: 28px;
   font-weight: 500;
+  object-fit: contain;
+  white-space: nowrap;
   padding: 20px 15px 15px 15px;
 }
 
 .bio-card-role {
   font-size: 18px;
+  white-space: nowrap;
   padding: 0px 15px 15px 20px;
 }
 
