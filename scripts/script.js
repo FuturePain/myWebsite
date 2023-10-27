@@ -9,6 +9,13 @@ const dhaliDisc = document.querySelector("#dhali");
 
 const viewportWidth = window.innerWidth || document.documentElement.clientWidth;
 
+$(document).ready(function(){
+  $("#research-headers").click(function(){
+      $("#research-body-txt, #pdfTest").toggle();
+  });
+});
+
+
 document.addEventListener("DOMContentLoaded", function() {
   if(viewportWidth < 450){
     brownName.style.fontSize = "25px";
@@ -18,7 +25,6 @@ document.addEventListener("DOMContentLoaded", function() {
     dhaliDisc.style.fontSize = "16px";
   }
 });
-
 
 const navbarLinksContainer = navbarMenu.querySelector(".navbar-links");
 let isNavbarExpanded = navbarToggle.getAttribute("aria-expanded") === "true";
