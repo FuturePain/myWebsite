@@ -34,7 +34,7 @@
           </div>
           <li class="navbar-item"><a class="navbar-link" href="about.html">About Us</a></li>
           <li class="navbar-item"><a class="navbar-link" href="contact.html">Contact</a></li>
-          <li class="navbar-item"><a class="navbar-link" href="https://berkeley.qualtrics.com/jfe/form/SV_74M6q6XsXhAU6Mt"><div id="nav-survey-button">Take the survey</div></a></li>
+          <!-- <li class="navbar-item"><a class="navbar-link" href="https://berkeley.qualtrics.com/jfe/form/SV_74M6q6XsXhAU6Mt"><div id="nav-survey-button">Take the survey</div></a></li> -->
         </ul>
       </div>
     </nav>
@@ -42,22 +42,30 @@
 
 <!--PAGE 1 HEADER BANNER-->
   <div id="image-banner-container">
-    <h1>Check your risk of chronic pain</h1>
-    <p>Find out in under 8 minutes with a free tool developed by UC Berkeley researchers. Get help on treating your pain.</p>
+    <h1>Lessen your chronic pain</h1>
+    <!--<h1>Check your risk of chronic pain</h1>-->
+    <p id="boundedDisc">Participate in our research study to reduce and eliminate pain.</p>
+    <!-- <p>Find out in under 8 minutes with a free tool developed by UC Berkeley researchers. Get help on treating your pain.</p> -->
     <!-- <p>A free tool developed by UC Berkeley researchers. Take your first step toward a better future in under 8 minutes.</p> -->
-    <a href="https://berkeley.qualtrics.com/jfe/form/SV_74M6q6XsXhAU6Mt">
-      <button id="take-survey-button">Take the free survey</button>
-    </a>
+    
+
+    <div id="buttonContainer">
+      <button onclick="location.href='landing.html';" id="take-survey-button">Learn More</button>
+      <!-- <a href="https://berkeley.qualtrics.com/jfe/form/SV_74M6q6XsXhAU6Mt">
+        <p id="surveyText">Not in pain? Check your future risk</p>
+      </a> -->
+    </div>
+
   </div>
 
-  <!-- PAGE 1 BETA BAR -->
+  <!-- PAGE 1 BETA BAR
   <div id="beta-container">
     <p id="p-white">This website is currently in progress. Check back for updates on when you can start taking the survey!</p>
   </div>
 
-<!-- PAGE 1 TIMELINE (horizontal desktop version) -->
+PAGE 1 TIMELINE (horizontal desktop version)
 <div id="timeline-container">
-  <!-- <div class="timeline-header">Find out in 3 easy steps</div> -->
+  <div class="timeline-header">Find out in 3 easy steps</div> 
   <div class="timeline-toprow">
     <div class="timeline-steps">STEP 1</div>
     <div class="timeline-steps">STEP 2</div>
@@ -85,7 +93,7 @@
     </div>
 </div>
 
-<!-- PAGE 1 TIMELINE (vertical mobile version) -->
+PAGE 1 TIMELINE (vertical mobile version)
 <div id="timeline-container-vertical">
   <div class="timeline-rightcolm">
     <div class="timeline-steps-wrapper">
@@ -115,7 +123,7 @@
   </div>
 </div>
 
-<!--PAGE 1 "WHAT'S FUTUREPAIN" SECTION-->
+PAGE 1 "WHAT'S FUTUREPAIN" SECTION
   <div id="whatsfuturepain-holder"></div>
   <div class="mainpage-explanation-container">
     <div class="mainpage-explanations">
@@ -131,7 +139,7 @@
     <div id="whatsfuturepain-pic"><img src="./assets/images/berkeley_students.jpg" alt="Berkeley students walking through campus, smiling"></div>
   </div>
 
-<!--PAGE 1 "HOW THE SURVEY WORKS" SECTION-->
+PAGE 1 "HOW THE SURVEY WORKS" SECTION
 <div class="mainpage-explanation-container">
   <div id="howsurveyworks-pic"><img src="./assets/images/how_survey_works.jpg" alt="Person typing into a computer"></div>
   <div class="mainpage-explanations">
@@ -146,16 +154,17 @@
   </div>
   </div>
 </div>
+-->
 
-<!--FOOTER-->
-  <div class="footer-container">
-    <div id="berk-logo"><img src="./assets/images/berk_logo.png" alt="Berkeley Public Health logo"></div>
-    <div class="footer-right">
-      <div class="footer-icons"><a href="https://www.facebook.com/Futurepain21/"><i class="fab fa-facebook"></i></a></div>
-      <div class="footer-icons"><a href="https://www.facebook.com/Futurepain21/"><i class="fab fa-twitter"></i></a></div>
-      <div class="footer-icons"><a href="mailto:futurepain@berkeley.edu"><i class="fas fa-envelope"></i></a></div>
+    <!--FOOTER-->
+    <div class="footer-container-index">
+      <div id="berk-logo"><img src="./assets/images/berk_logo.png" alt="Berkeley Public Health logo"></div>
+      <div class="footer-right">
+        <div class="footer-icons"><a href="https://www.facebook.com/Futurepain21/"><i class="fab fa-facebook"></i></a></div>
+        <div class="footer-icons"><a href="https://www.facebook.com/Futurepain21/"><i class="fab fa-twitter"></i></a></div>
+        <div class="footer-icons"><a href="mailto:futurepain@berkeley.edu"><i class="fas fa-envelope"></i></a></div>
+      </div>
     </div>
-  </div>
 
 <!--JAVASCRIPT-->
   <script src="scripts/script.js"></script>

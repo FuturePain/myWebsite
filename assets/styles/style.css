@@ -15,6 +15,306 @@ body {
 
 }
 
+.section-four{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#cta-text{
+  margin-top: 5%;
+  width: 100%;
+  padding: 15%;
+  padding-top: 0;
+  padding-bottom: 0;
+  text-align: center;
+}
+
+main{
+  margin-bottom: 150px;
+}
+
+.sidebar-container{
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+
+#testimony{
+  font-size: 20px;
+  font-family: 'Karla', sans-serif;
+}
+
+.testimonal-carousel{
+  width: 100%;
+  display: flex;
+  align-items: top;
+  justify-content: center;
+
+}
+
+#testifier-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  position: relative;
+  margin-right: 15px;
+}
+
+#testifier-image{
+  width: 150px;
+  border: 5px solid #e8e3e3;
+  border-radius: 50%;
+  object-fit: cover;
+  transform: translateY(-80px);
+}
+#testifier-name{ 
+  z-index: 2;
+  background-color: white;
+  margin-top: -100px;
+  font-size: 25px;
+}
+.testimonal-card{
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  width: 500px;
+}
+
+.caption{
+  padding-top: 1px;
+  font-family: 'Karla', sans-serif;
+  text-align: right;
+  color: grey;
+}
+
+#bodyImg{
+  width: 100%;
+  object-fit: cover;
+}
+
+.scroll-rows{
+  white-space: nowrap;
+  overflow-x: hidden;
+}
+
+#scroller-logos{
+  width: 20%;
+  margin-right: 2%;
+  object-fit: contain;
+}
+
+.section-two{
+  width: 100%;
+  margin: none;
+  padding: 10px;
+}
+
+.section-two{
+  width: 100%;
+  margin: none;
+  padding: 10px;
+}
+
+.section-one{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cta-button-landing {
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.cta-button-landing:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#spacer{
+  height: 20px;
+}
+
+#content{
+  display: flex;
+  width: 1000px;
+}
+
+#article{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  margin-left: 10px;
+}
+
+.sidebar {
+  padding-top: 5px;
+  padding-left: 5px;
+  position: relative;
+  left: 0;
+  height: fit-content;
+  background: #eee;
+  overflow-x: hidden;
+}
+
+.sidebar h2 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-family: 'Karla', sans-serif;
+}
+.sidebar li {
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+}
+.sidebar a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+}
+.sidebar a:hover {
+  padding-left: 2px;
+  border-left: 2px solid blue;
+  background-color: #e9e9e9;
+}
+
+.bodyDisc {
+  color: #332B29;
+  font-size: 18px;
+  font-family: 'Karla', sans-serif;
+  
+}
+
+.bodyHead {
+  color: #332B29;
+  font-size: 24px;
+  font-family: 'Karla', sans-serif;
+}
+
+#headerPhoto {
+  align-self: center;
+  object-fit: cover;
+  margin-bottom: 2%;
+  border-radius: 2%;
+}
+
+.eligibility-criteria{
+  width: 55%;
+  font-family: 'Karla', sans-serif;
+}
+
+.study-details{
+  width: 80%;
+}
+
+#studyDisc {
+  color: #332B29;
+  font-size: 18px;
+  font-family: 'Karla', sans-serif;
+}
+
+.vl {
+  border-left: 2px solid rgb(43, 46, 43);
+  margin-left: 2%;
+  margin-right: 2%;
+  height: 250px;
+}
+
+/* Educational Section Styles */
+.educational-section {
+  background: #fff;
+  margin-bottom: 2rem;
+}
+
+/* Card Component Styles */
+.card-container {
+  background: #f9f9f9;
+  display: flex;
+  flex-direction: horizontal;
+  border: 1px solid #ddd;
+  width: 100%;
+  border-radius: 10px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.card-container section {
+  margin-bottom: 2rem;
+}
+
+/* Main Content Styles */
+main {
+  padding: 0 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+#eligibilityCriteria {
+  list-style: none;
+}
+
+#eligibilityCriteria li {
+  background: #fff;
+  margin-bottom: 0.5rem;
+  padding: 0.75rem;
+  border-left: 4px solid #333;
+}
+
+.cta-button:hover {
+  background: #4cae4c;
+}
+
+#buttonContainer{
+  display: flex;
+  flex-direction: column;
+}
+#surveyText{
+  margin-top: 2px;
+  font-size: 15px;
+  color: rgb(69, 67, 67);
+  text-decoration: underline;
+}
+
+#boundedDisc{
+  width: 50%;
+}
+
 .container {
   max-width: 100%;
   padding-left: 1.4rem;
@@ -263,6 +563,17 @@ body {
   align-items: center;
 }
 
+.footer-container-index {
+  position: relative;
+  bottom:0;
+  width: 100%;
+  background-color: #A1B9ED;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 #page-container {
   position: relative;
   min-height: 100%;
@@ -305,7 +616,7 @@ body {
   background-position: center;
   background-size: cover;
   width: 100%;
-  height: 90%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -336,7 +647,7 @@ p {
   font-size: 16px;
   letter-spacing: 1.5px;
   border: none;
-  padding: 18px 32px;
+  padding: 18px 42px;
   text-decoration: none;
   cursor: pointer;
   border-radius: 50px;
@@ -609,6 +920,7 @@ p {
 /* ABOUT PAGE */
 .top-page-container{
   display: flex;
+  align-items: center;
   flex-direction: column;
   justify-content: center;
   padding-top: 120px;
